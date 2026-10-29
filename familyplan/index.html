@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FamilyPlan - Organisation & Planning Familial</title>
+    <meta name="description" content="L'application tout-en-un pour organiser la vie de famille : calendrier partagé, listes, tâches et repas.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2.8em; margin-bottom: 15px; }
+        .header p { font-size: 1.2em; opacity: 0.95; }
+        .container { max-width: 900px; margin: 0 auto; padding: 50px 20px; }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+        .feature {
+            padding: 25px;
+            background: #f8fafc;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+        .feature-icon { font-size: 2.5em; margin-bottom: 12px; }
+        .feature h3 { margin-bottom: 10px; color: #4f46e5; }
+        .section { margin: 40px 0; }
+        .section h2 { color: #4f46e5; margin-bottom: 15px; font-size: 1.8em; }
+        ul { list-style: none; padding: 0; }
+        ul li { padding: 10px 0 10px 30px; position: relative; }
+        ul li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: bold;
+        }
+        .links {
+            margin: 30px 0;
+            padding: 20px;
+            background: #eef2ff;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .links a {
+            color: #4f46e5;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+        .links a:hover { text-decoration: underline; }
+        .footer {
+            background: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>👨‍👩‍👧‍👦 FamilyPlan</h1>
+        <p>Simplifiez et partagez le quotidien de votre famille</p>
+    </div>
 
+    <div class="container">
+        <div class="section">
+            <h2>🎯 Fonctionnalités principales</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">📅</div>
+                    <h3>Calendrier Partagé</h3>
+                    <p>Synchronisez les rendez-vous, activités et événements de toute la famille.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🛒</div>
+                    <h3>Listes de Courses</h3>
+                    <p>Listes collaboratives mises à jour en direct pour ne rien oublier.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✅</div>
+                    <h3>Tâches & Défis</h3>
+                    <p>Répartissez les tâches ménagères et motivez les enfants avec des points.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🍲</div>
+                    <h3>Planning Repas</h3>
+                    <p>Planifiez vos menus de la semaine et générez vos ingrédients.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="links">
+            <p><strong>Assistance & Confidentialité :</strong></p>
+            <p style="margin-top: 10px;">
+                <a href="mailto:amccreateur@gmail.com">Contacter le support (amccreateur@gmail.com)</a> | 
+                <a href="https://amccreateur.github.io/familyplan-privacy.html">Politique de confidentialité</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 FamilyPlan - Tous droits réservés</p>
+        <p>Support : amccreateur@gmail.com</p>
+    </div>
+</body>
+</html>
